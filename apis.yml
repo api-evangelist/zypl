@@ -1,8 +1,26 @@
 aid: zypl
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zypl.png
 name: Zypl
-description: 'Zypl is a company surfaced as a portfolio company of prosus-ventures and added to the API
-  Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  Zypl (zypl.ai) is an AI company building synthetic-data and machine-learning technology for
+  financial services and government. Its core is proprietary zGAN generative synthetic-data
+  technology, delivered through Lucid, a no-code platform for developing and deploying robust
+  scoring models. Products include zScore for credit decisioning, plus fraud detection, collection
+  scoring, and IFRS-9/GAAP-compliant provisioning for credit-loss estimation. Zypl serves banks,
+  financial institutions, and public-sector entities, and operates an R&D lab (zehnlab.ai). It is
+  backed by Prosus Ventures. Zypl publishes no public developer/API surface at this time; this
+  profile carries verified identity and a live domain-security probe.
 url: https://raw.githubusercontent.com/api-evangelist/zypl/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Ai
+- Fintech
+- Machine Learning
+- Synthetic Data
+- Credit Scoring
+- Financial Services
+- Risk
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +47,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/zypl-domain-security.yml
 - type: Website
   url: https://zypl.ai
+- type: GitHubOrganization
+  url: https://github.com/zypl-ai
+- type: Support
+  url: https://zypl.ai/contact-us
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
