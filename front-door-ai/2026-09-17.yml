@@ -1,0 +1,29 @@
+# Front Door AI Index — zypl — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: zypl
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: zypl.ai
+  final_host: zypl.ai
+  ownership: own
+  owner: zypl
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 37
+  host_score: 37
+  density: 54.9
+  words: 674
+  tiers:
+    agentic: 1
+    core: 36
+    model: 0
+  ambiguous: 9
+  top_terms:
+    AI: 28
+    generative ai: 8
+    predictive: 8
+    AI agent: 1
+    agent: 1
